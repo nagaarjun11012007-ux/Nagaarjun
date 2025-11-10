@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple Paddle Ball Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+        <h1>LOGIN SUCCESSFULL </h1><br>
+      <h1>Simple Paddle Ball (Breakout-style)</h1>
+      <p class="hint">Move the paddle with mouse or arrow keys. Break all bricks to win.</p>
+    </header>
+
+    <div class="card">
+      <canvas id="game" width="720" height="480"></canvas>
+      <div class="info">
+        <div id="score">Score: 0</div>
+        <div id="lives">Lives: 3</div>
+        <button id="restart" class="btn">Restart</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
